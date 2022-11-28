@@ -1,0 +1,278 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+.pai-main{
+    display: flex;
+    justify-content: center;
+}
+
+section{margin: 60px 15px;}
+
+main{
+    background-image: url(./img/black\ ferns\ campeãs.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+
+.subtitulo{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 15px 5px black;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-style: oblique;
+    border-radius: 30px;
+    }
+
+.fundo{
+    Width:600px;
+    Height:300px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.img{
+    width: 220px;
+    height: 220px;
+    border-radius: 120px;
+    margin-top: -110px;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: 'Rubik Distressed', cursive;
+    margin-top: 15px;
+}
+
+.paragrafo{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 25px;
+}
+
+.button{
+    background-color: black;
+    font-family: 'Rubik Distressed', cursive;
+    width: 300px;
+    height: 70px;
+    border: none;
+    font-size: 36px;
+    color: white;
+    border-radius: 60px;
+    margin: 20px 0px;
+}
+
+.sobre-p{height: 330px;}
+
+.bloco{
+    background-color: #F3F3F3;
+    text-align: center;
+    Width:600px;
+    height: 670px;
+    margin-top: -5px;
+
+}
+
+.h3{
+    font-size: 36px;
+}
+
+.p{ background-color: rgba(255, 255, 255, 0.842);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 15px 15px rgba(128, 128, 128, 0.445);
+}
+
+.h1{
+    font-family: 'Rubik Distressed', cursive; 
+    text-align: center;
+    font-size: 100px;
+    margin: 100px 150px;
+    text-shadow: 3px 3px white;
+}
+
+.banner{padding: 50px 0px;
+}
+
+ul{    
+    display: flex;
+}
+
+li{margin: 80px 70px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    list-style: none;
+    color: black;
+    font-weight: 700;
+    padding: 15px 70px;
+    font-size: 22px;
+    border-radius: 20px;
+    width: 250px ;        
+}
+
+.logo-header{height: 150px;
+    margin: 20px 70px ;
+}
+
+.pai-header{display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.video{display: flex;
+    justify-content: center;
+}
+
+iframe{border-radius: 20px;
+    border-color: white;
+    border: 5px;
+    margin-bottom: 200px;  
+    margin-top: 150px; 
+}
+
+footer{background-color: black;}
+
+.logo-footer{ width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 30px 50px;
+}
+
+
+@media (width <= 425px)
+
+{.pai-main{display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+}
+
+section{margin: 20px 5px;
+}
+
+.subtitulo{    
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 5px 2px black;    
+    margin-left: 5px;
+    margin-right: 5px;
+    font-style: oblique;
+    border-radius: 15px;
+    }
+
+.fundo{
+    Width:250px;
+    Height:150px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img{
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    margin-top: -35px;
+}
+
+.titulo{
+    font-size: 20px;    
+    margin-top: 10px;
+    Width:250px;
+}
+
+.paragrafo{
+    font-size: 10px;
+    margin: 10px 5px;
+}
+
+.button{    
+    width: 150px;
+    height: 35px;
+    border: none;
+    font-size: 12px;    
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+
+.sobre-p{height: 140px;
+}
+
+.bloco{    
+    text-align: center;
+    Width:250px;
+    height: 300px;
+    margin-top: -5px;
+
+}
+
+.h3{
+    font-size: 8px;    
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.p{ font-size: 12px;
+    margin: 10px 50px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px rgba(128, 128, 128, 0.445);
+}
+
+.h1{
+    font-size: 25px;
+    margin: 20px 50px;
+    text-shadow: 2px 2px white;
+}
+
+.banner{padding: 5px 0px;
+    width: 425px;
+    }
+
+ul{    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{margin: 10px 150px;    
+    list-style: none;
+    text-align: center;      
+    padding: 7px 25px;
+    font-size: 10px;
+    border-radius: 10px;
+    width: 125px ;        
+}
+
+.logo-header{height: 75px;
+    margin: 10px 5px ;
+    text-align: center;
+}
+
+.pai-header{display: flex;
+    justify-content:center;
+    flex-wrap: wrap;    
+    }
+
+iframe{border-radius: 10px;
+    border: 3px;
+    margin-bottom: 50px;  
+    margin-top: 30px; 
+    width: 300px;
+    height: 200px;
+}
+
+.logo-footer{ width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px 15px;    
+}
+
+}
